@@ -74,7 +74,7 @@ namespace EducationC_
 
             #region yeni task
             string command;
-             while (true)
+            while (true)
             {
                 Console.WriteLine("Enter command:");
                 command = Console.ReadLine();
@@ -91,17 +91,25 @@ namespace EducationC_
                 {
                     Console.WriteLine("Unknown command. Available commands: /hello, /givemyname, /exit");
                 }
-                else if  (command == "/exit")
+                else if (command == "/exit")
                 {
                     Console.WriteLine("Exit program :");
                 }
-                
+                else command = "wrong command :";
 
+                {
+                    Console.WriteLine("Unknwon command :");
+
+                }
+
+
+
+               
             }
             #endregion
 
 
-           
+
 
 
 
