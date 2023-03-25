@@ -1,4 +1,5 @@
-﻿using System.Transactions;
+﻿using System.ComponentModel.Design;
+using System.Transactions;
 
 namespace EducationC_
 {
@@ -6,7 +7,7 @@ namespace EducationC_
     {
         static void Main(string[] args)
         {
-            ///////////////Data types///////////////////
+            #region   ///////////////Data types///////////////////
 
             //bool heYadaYox = false; // true
             //string ad = "Salam";
@@ -71,46 +72,83 @@ namespace EducationC_
             //{
             //    Console.WriteLine();
             //}
-
-            #region yeni task
-            string command;
-            while (true)
-            {
-                Console.WriteLine("Enter command:");
-                command = Console.ReadLine();
-
-                if (command == "/givemyname")
-                {
-                    Console.WriteLine("Yusif");
-                }
-                else if (command == "/hello")
-                {
-                    Console.WriteLine("Salam");
-                }
-                else if (command == "/hellohowareyou")
-                {
-                    Console.WriteLine("Unknown command. Available commands: /hello, /givemyname, /exit");
-                }
-                else if (command == "/exit")
-                {
-                    Console.WriteLine("Exit program :");
-                }
-                else command = "wrong command :";
-
-                {
-                    Console.WriteLine("Unknwon command :");
-
-                }
-
-
-
-               
-            }
             #endregion
 
 
+            #region yeni task
+            //string command;
+            //while (true)
+            //{
+            //    Console.WriteLine("Enter command:");
+            //    command = Console.ReadLine();
+
+            //    if (command == "/givemyname")
+            //    {
+            //        Console.WriteLine("Yusif");
+            //    }
+            //    else if (command == "/hello")
+            //    {
+            //        Console.WriteLine("Salam");
+            //    }
+            //    else if (command == "/hellohowareyou")
+            //    {
+            //        Console.WriteLine("Unknown command. Available commands: /hello, /givemyname, /exit");
+            //    }
+            //    else if (command == "/exit")
+            //    {
+            //        Console.WriteLine("Exit program :");
+            //    }
+            //    else command = "/wrong command :";
+
+            //    Console.WriteLine("Unknwon command :");
 
 
+
+
+
+
+
+
+            #endregion
+
+            #region kecmis tasklardan
+            string fullmyName = "Huseynzade Yusif";
+            int myAge = 62;
+            bool myIsMarried = false;
+            bool haschild = false;
+
+            Console.WriteLine("FullmyName :" + " " + fullmyName);
+            Console.WriteLine("MyAge :" + " " + myAge);
+            Console.Write("IsMarried :");
+
+            if (myIsMarried)
+            {
+                Console.WriteLine(" Beli evlidir.");
+                if (haschild)
+                {
+                    Console.WriteLine(" Beli usagi var. ");
+                }
+                else
+                {
+                    Console.WriteLine(" Xeyr usagi yoxdur. ");
+                }
+
+            }
+            else
+            {
+                Console.WriteLine(" Xeyr evli deyildir.");
+            }
+            if (myAge <= 25)
+            {
+                Console.WriteLine(myAge + " Yasli Gencdir." );
+            }
+            else if (myAge >= 25 && myAge <= 50)
+            {
+                Console.WriteLine(myAge + " Yasli Cavandir. ");
+
+            }
+            else { Console.WriteLine(myAge + " Yasli Qocadir. "); }
+            #endregion
 
 
         }
