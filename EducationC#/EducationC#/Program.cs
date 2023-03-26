@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.Design;
 using System.Transactions;
+using System.Xml.Schema;
 
 namespace EducationC_
 {
@@ -112,45 +113,101 @@ namespace EducationC_
             #endregion
 
             #region kecmis tasklardan
-            string fullmyName = "Huseynzade Yusif";
-            int myAge = 62;
-            bool myIsMarried = false;
-            bool haschild = false;
+            //string fullmyName = "Huseynzade Yusif";
+            //int myAge = 62;
+            //bool myIsMarried = false;
+            //bool haschild = false;
 
-            Console.WriteLine("FullmyName :" + " " + fullmyName);
-            Console.WriteLine("MyAge :" + " " + myAge);
-            Console.Write("IsMarried :");
+            //Console.WriteLine("FullmyName :" + " " + fullmyName);
+            //Console.WriteLine("MyAge :" + " " + myAge);
+            //Console.Write("IsMarried :");
 
-            if (myIsMarried)
-            {
-                Console.WriteLine(" Beli evlidir.");
-                if (haschild)
-                {
-                    Console.WriteLine(" Beli usagi var. ");
-                }
-                else
-                {
-                    Console.WriteLine(" Xeyr usagi yoxdur. ");
-                }
+            //if (myIsMarried)
+            //{
+            //    Console.WriteLine(" Beli evlidir.");
+            //    if (haschild)
+            //    {
+            //        Console.WriteLine(" Beli usagi var. ");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(" Xeyr usagi yoxdur. ");
+            //    }
 
-            }
-            else
-            {
-                Console.WriteLine(" Xeyr evli deyildir.");
-            }
-            if (myAge <= 25)
-            {
-                Console.WriteLine(myAge + " Yasli Gencdir." );
-            }
-            else if (myAge >= 25 && myAge <= 50)
-            {
-                Console.WriteLine(myAge + " Yasli Cavandir. ");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(" Xeyr evli deyildir.");
+            //}
+            //if (myAge <= 25)
+            //{
+            //    Console.WriteLine(myAge + " Yasli Gencdir." );
+            //}
+            //else if (myAge >= 25 && myAge <= 50)
+            //{
+            //    Console.WriteLine(myAge + " Yasli Cavandir. ");
 
-            }
-            else { Console.WriteLine(myAge + " Yasli Qocadir. "); }
+            //}
+            //else { Console.WriteLine(myAge + " Yasli Qocadir. "); }
             #endregion
 
+            #region 1. Məzənnə hesablama programı
+            /// Calculating step
+            //float USD = 1.70f;
+            //float EURO = 1.8104f;
+            //float RUB = 0.0223f;
 
+            //Console.WriteLine("Enter the amount :");
+            //float azns = float.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Total Azn :" + azns);
+            //Console.WriteLine("Usd :" + USD * azns);
+            //Console.WriteLine("Euro :" + EURO * azns);
+            //Console.WriteLine("Rub :" + RUB * azns);
+            #endregion
+
+            #region 2. Ölkə büdcəsini hesablanmasına aid program 
+
+            //int Governmentamount = 200000000;
+
+            //Console.WriteLine(Governmentamount);
+            //Console.WriteLine("Military Ministry :" + Governmentamount / 100 * 20 );
+            //Console.WriteLine("High Tech Ministry :" +  Governmentamount / 100  * 10);
+            //Console.WriteLine("");
+            //Console.WriteLine("The lastest in amount :" + Governmentamount / 100 * 70);
+
+
+            #endregion
+
+            #region 3. Kargo sifarişlərinin hesablanması üçün program 
+            ///Defining step 
+            //string firstBrandName = "Adidas";
+            //int firstBuyingShoes = 4;
+            //int firstCount = 200;
+
+            //string secondBrandName = "Gucci";
+            //int secondBuyingShoes = 2;
+            //int secondCount = 1000;
+
+            //string thirdBrandName = "Nike";
+            //int thirdBuyingShoes = 1;
+            //int thirdCount = 150;
+
+            //Console.WriteLine("Company of Name :" + firstBrandName);
+            //Console.WriteLine("Number of shoes :" + firstBuyingShoes);
+            //Console.WriteLine("Shoes of count :"  + firstCount);
+            //Console.WriteLine("Price all together :" + firstBuyingShoes * firstCount);
+            //Console.WriteLine("");
+            //Console.WriteLine("Company of Name :" + secondBrandName);
+            //Console.WriteLine("Number of shoes :" + secondBuyingShoes);
+            //Console.WriteLine("Shoes of count :" + secondCount);
+            //Console.WriteLine("Price all together :" + secondBuyingShoes * secondCount);
+            //Console.WriteLine("");
+            //Console.WriteLine("Company of Name :" + thirdBrandName);
+            //Console.WriteLine("Number of shoes :" + thirdBuyingShoes);
+            //Console.WriteLine("Shoes of count :" + thirdCount);
+            //Console.WriteLine("Price all together :" + thirdBuyingShoes * thirdCount);
+            #endregion
         }
     }
 }
