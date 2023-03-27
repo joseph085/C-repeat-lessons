@@ -208,6 +208,73 @@ namespace EducationC_
             //Console.WriteLine("Shoes of count :" + thirdCount);
             //Console.WriteLine("Price all together :" + thirdBuyingShoes * thirdCount);
             #endregion
+
+            #region Arrayler ve 2. Terminalda məzənnə idarəetmə sistemi
+
+            /// Array loop 
+            //int namesCount = int.Parse(Console.ReadLine());
+            //string[] names = new string[namesCount];    
+            //int fillIndex = 0;
+            //while (fillIndex < namesCount)
+            //{
+            //    names[fillIndex] = Console.ReadLine();
+            //    fillIndex++;    
+            //}
+            //int index = 0;
+
+            //while (index < names.Length)
+            //{
+            //    Console.Write(names[index]);
+            //    index++;
+            //}
+
+            /// 2. Terminalda məzənnə idarəetmə sistemi
+            //do
+            //{
+            //    string[] currencies = { "USD", "RUB", "TRY", "EUR" };
+            //    decimal[] currencyRates = { 1.70M, 0.0223M, 0.0894M, 1.82M };
+            //    Console.WriteLine("Available command : ");
+            //    Console.WriteLine("/ show - recent - currency - rates");
+            //    Console.WriteLine("/ find - currency - rate - by - code");
+            //    Console.WriteLine("/ calculate - amount - by - currency");
+            //    Console.WriteLine("/exit");
+            //    Console.WriteLine();
+
+            //    Console.Write("Please enter cmd :");
+            //    string command = Console.ReadLine();
+
+
+
+            //    if (command == "/ show - recent - currency - rates")
+            //    {
+            //        Console.WriteLine("Currency Rates ");
+            //    }
+            //    else if (command == "/ find - currency - rate - by - code")
+            //    {
+            //        Console.WriteLine("Currency rate by code ");
+            //    }
+            //    else if (command == "/ calculate - amount - by - currency")
+            //    {
+            //        Console.WriteLine("Amount by currency");
+            //    }
+            //    else if (command == "/exit")
+            //    {
+            //        Console.WriteLine("Exit ");
+            //        break
+
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("/Command not found");
+            //    }
+            //} while (true);
+
+
+
+
+
+
+            #endregion
         }
     }
 }
